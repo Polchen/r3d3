@@ -21,6 +21,10 @@ def main():
     b = 25 #äußeres Kurvenrad
     c = 30
     d = 3 #inneres kurvenrad für leichte kurve
+
+    # MANÖVER ist dazu da bei jeder Kurve immer die gleiche Variable neu festzulgen
+    # und diese dann wieder auszuführen wenn alle Sensoren auf schwarz sind, das
+    # führ dazu, dass er dann die vorherige Bewegung weiter macht
     
     while True: #Zeilenumbrüche fehlen noch
         """if i >= 140:
